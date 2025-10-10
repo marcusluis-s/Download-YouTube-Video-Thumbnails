@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>YouTube Thumbnail Downloader</title>
+        <link rel="stylesheet" href="popup.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>YouTube Thumbnail Downloader</h1>
+
+            <div id="loading" class="loading hidden">
+                <div class="spinner"></div>
+                <p>Loading...</p>
+            </div>
+
+            <div id="error" class="error hidden">
+                <p class="error-message"></p>
+            </div>
+
+            <div id="content" class="hidden">
+                <div class="video-info">
+                    <p class="video-title"></p>
+                </div>
+
+                <div class="thumbnail-options">
+                    <h3>Select Quality:</h3>
+                    <button class="download-btn" data-quality="maxresdefault">
+                        Max Resolution (1920x1080)
+                    </button>
+                    <button class="download-btn" data-quality="sddefault">
+                        Standard (640x480)
+                    </button>
+                    <button class="download-btn" data-quality="hqdefault">
+                        High Quality (480x360)
+                    </button>
+                    <button class="download-btn" data-quality="mqdefault">
+                        Medium Quality (320x180)
+                    </button>
+                </div>
+
+                <div class="preview">
+                    <h3>Preview:</h3>
+                    <img id="thumbnail-preview" alt="Thumbnail preview">
+                </div>
+            </div>
+        </div>
+
+        <script src="dist/popup.js"></script>
+    </body>
+</html>
