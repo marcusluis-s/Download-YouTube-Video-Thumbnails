@@ -25,13 +25,6 @@ Perfect for content creators, designers, researchers, or anyone who needs quick 
 - 🎨 **Clean Interface**: Modern, intuitive design
 - 🔒 **Privacy-Focused**: No data collection, works entirely offline after installation
 
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-- Report bugs
-- Suggest new features
-- Submit pull requests
-
 ## 📞 Support
 
 If you encounter any issues or have questions:
